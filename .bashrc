@@ -12,7 +12,7 @@ export PROMPT_COMMAND='echo -ne "\033]0;${__comp_name__}-${STY}-${USER}@${HOSTNA
 export GIT_PROMPT_ONLY_IN_REPO=1
 export GIT_PROMPT_START='\[\e[32m\]\u@\h{$STY:$WINDOW}\[\e[0m\] \t \[\e[33m\]\w\[\e[0m\]'
 export GIT_PROMPT_THEME=Custom
-source ~/.bash-git-promt/gitprompt.sh
+source ~/.bash-git-prompt/gitprompt.sh
 
 export CC=gcc
 export CXX=g++
