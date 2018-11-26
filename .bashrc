@@ -23,4 +23,3 @@ export LANG="en_US.utf8"
 #alias make=colormake
 ulimit -c unlimited
 
-unset __comp_name__
