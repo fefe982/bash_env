@@ -13,4 +13,6 @@ log-nice  = log --graph --decorate --pretty=oneline --abbrev-commit
     st        = status
     wdiff     = diff --word-diff=plain
 [push]
-	default = simple
+    default = simple
+[include]
+    path = ~/.local_gitconfig
