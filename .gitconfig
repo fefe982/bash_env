@@ -16,3 +16,5 @@ log-nice  = log --graph --decorate --pretty=oneline --abbrev-commit
     default = current
 [include]
     path = ~/.local_gitconfig
+[merge]
+	conflictStyle = zdiff3

@@ -20,6 +20,14 @@ source ~/.bash-git-prompt/gitprompt.sh
 export CC=gcc
 export CXX=g++
 export LANG="en_US.utf8"
-#alias make=colormake
+export SETUPTOOLS_ENABLE_FEATURES="legacy-editable"
 ulimit -c unlimited
+
+alias egrep='egrep --color=auto'
+alias fgrep='fgrep --color=auto'
+alias grep='grep --color=auto'
+alias l.='ls -d .* --color=auto'
+alias ll='ls -l --color=auto'
+alias ls='ls --color=auto'
+alias vi='vim'
 
